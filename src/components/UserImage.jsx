@@ -4,7 +4,7 @@ const UserImage = ({ image, size = "60px" }) => {
   return (
     <Box width={size} height={size}>
       <img
-        src={`http://localhost:3001/assets/${image}`}
+        src={`https://dull-rose-lemur-coat.cyclic.app/assets/${image}`}
         width={size}
         height={size}
         alt="user"
